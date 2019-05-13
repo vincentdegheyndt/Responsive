@@ -1,0 +1,58 @@
+body{
+    background-color: red;
+    font-size: 140%;
+}
+        #small{
+            display: block;
+            width: 100%;
+            text-align: justify;
+        }
+        #middle{
+            display: block;
+            width: 100%;
+            text-align: justify;
+        }
+        #large{
+            display: block;
+            width: 100%;
+            text-align: justify;
+        }
+
+@media only screen and (min-width: 768px){
+    body{
+        background-color: green;
+        font-size: 120%;
+    }
+        #small{
+            display: inline-block;
+            vertical-align: top;
+
+            width: 66%;
+        }
+        #middle{
+            display: inline-block;
+            width: 33%;
+        }
+        #large{
+            display: block;
+        }
+
+}
+@media only screen and (min-width: 992px){
+    body{
+        background-color: blue;
+        font-size: 150%;
+    }
+        #small{
+            display: inline-block;
+            width: 33%;
+        }
+        #middle{
+            display: inline-block;
+            width: 33%;
+        }
+        #large{
+            display: inline-block;
+            width: 33%;
+        }
+}
